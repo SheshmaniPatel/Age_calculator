@@ -69,12 +69,30 @@
   cursor: pointer;
 }
 
-.result{
-    font-size: 20px;
-    color: #ffff76;
+.result {
+  font-size: 20px;
+  color: #ffff76;
 }
-.result span{
-    font-size: 22px;
-    color: #1c0602;
-    
+.result span {
+  font-size: 22px;
+  color: #1c0602;
+}
+@media only screen and (max-width: 600px) {
+  .calculator {
+    margin-top: 15%;
+    margin-left: 0%;
+    width: 100%;
+  }
+  .input_box {
+    margin: 30px 0;
+    padding: 30px;
+     
+  }
+  .input_box input {
+    margin-right: 15px;
+    padding: 14px 18px;
+  }
+  .input_box button {
+    padding: 12px 25px;
+  }
 }
